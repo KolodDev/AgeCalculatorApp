@@ -17,10 +17,11 @@
             android:id="@+id/editYear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
             android:gravity="center"
             android:hint="أدخل سنة ميلادك"
             android:inputType="number"
-            android:layout_marginBottom="16dp"/>
+            android:minHeight="48dp" />
 
     </LinearLayout>
 
@@ -32,7 +33,7 @@
         android:fontFamily="@font/cairo_semibold"
         android:text="أحسب"
         android:textSize="20sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="12dp"/>
 
     <TextView
         android:id="@+id/showAge"
